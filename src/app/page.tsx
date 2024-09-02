@@ -3,23 +3,6 @@ import Head from 'next/head'
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>Link Tree - Your Brand</title>
-        <meta name="description" content="Discover links and resources from Your Brand. Connect with us through our various platforms." />
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="Link Tree - Your Brand" />
-        <meta property="og:description" content="Discover links and resources from Your Brand. Connect with us through our various platforms." />
-        <meta property="og:image" content="/path-to-your-og-image.png" />
-        <meta property="og:url" content="https://yourdomain.com" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Link Tree - Your Brand" />
-        <meta name="twitter:description" content="Discover links and resources from Your Brand. Connect with us through our various platforms." />
-        <meta name="twitter:image" content="/path-to-your-twitter-image.png" />
-        {/* Add Google Analytics script here */}
-      </Head>
-
       <div className="flex flex-col items-center justify-center min-h-screen bg-primary text-secondary px-4 py-6">
         <div className="w-full max-w-md p-6 bg-secondary rounded-lg shadow-lg">
           {/* Placeholder for Logo */}
@@ -31,7 +14,7 @@ const Home = () => {
           <nav className="flex flex-col space-y-4">
             <a href="https://bar-scout.com" target="_blank" className="flex items-center p-3 bg-white text-text rounded-lg shadow-md hover:bg-gray-100 transition-colors duration-300">
               <img src="/link-50.png" alt="Your Brand Logo" className="h-12 mr-2" />
-              <span>Our Website</span>
+              <span className="font-bold">Our Website</span>
             </a>
             <a href="https://apps.apple.com/us/app/bar-scout/id6473463411" target="_blank" className="flex items-center p-3 bg-white text-text rounded-lg shadow-md hover:bg-gray-100 transition-colors duration-300">
               <img src="/apple-50.png" alt="Apple icon" className="h-12 mr-2" />
