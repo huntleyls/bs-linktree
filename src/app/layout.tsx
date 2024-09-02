@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "BarScout - Discover the Best Bars",
   description: "BarScout helps you find and explore the best bars around. Join us to discover exciting new places and stay updated with our app.",
   keywords: "bars, nightlife, bar finder, drinks, nightlife app, BarScout",
-  author: "BarScout Team",
+  authors: [{ name: "BarScout Team", },],
   openGraph: {
     type: 'website',
     url: 'https://barscout.com',
