@@ -5,6 +5,7 @@ const Home = () => {
     <>
       <Head>
         <title>BarScout - Discover the Best Bars</title>
+        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="BarScout helps you find and explore the best bars around. Join us to discover exciting new places and stay updated with our app." />
         <meta name="keywords" content="bars, nightlife, bar finder, drinks, nightlife app, BarScout" />
         <meta property="og:type" content="website" />
