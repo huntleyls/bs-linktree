@@ -8,7 +8,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BarScout - Discover the Best Bars",
+  title: "BarScout - Find Your Bar",
   description: "BarScout helps you find and explore the best bars around. Join us to discover exciting new places and stay updated with our app.",
   keywords: "bars, nightlife, bar finder, drinks, nightlife app, BarScout",
   authors: [{ name: "BarScout Team", },],
@@ -36,7 +36,7 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2054354585755647"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5713049706972318"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
